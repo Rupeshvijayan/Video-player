@@ -1,0 +1,48 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+
+.container{
+    height:100vh;
+    background-image: url(../img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+}
+
+.vid-container{
+    position:absolute;
+    top:4%;
+    left:14.5%;
+}
+
+.vid-controls{
+    position:absolute;
+    bottom:11%;
+    left: 17%;
+
+    display:flex;
+    justify-content: s;
+}
+
+i{
+    color:#fff;
+}
+
+label i{
+    padding:7px;
+}
+
+.vid-controls button{
+    background: none;
+    padding:5px 40px;
+}
+
+select{
+    background: none;
+    color:#fff;
+}
+
